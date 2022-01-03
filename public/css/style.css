@@ -1,0 +1,596 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    margin: 0;
+}
+
+.container {
+    flex-direction: column;
+    width: 1440px;
+    height: 2942px;
+    top: -513px;
+    left: -720px;
+    margin: auto;
+    color: white;
+    /*to change*/
+}
+
+.background {
+    width: 1440px;
+    height: 782px;
+    color: white;
+
+
+}
+
+.backgroundImage {
+    position: absolute;
+    width: 1440px;
+    height: 782px;
+    left: 0px;
+    top: 0px;
+    background: url("../images/Rectangle 3.png"), #C4C4C4;
+    z-index: -1;
+}
+
+.blendOnBackground {
+    position: absolute;
+    width: 1440px;
+    height: 782px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%,
+            rgba(238, 61, 27, 0.8) 100%);
+    z-index: -1;
+}
+
+.dashIcons {
+    width: 29px;
+    height: 29px;
+    top: 55px;
+    left: 165px;
+
+}
+
+.cloudsIcon {
+    position: absolute;
+    left: 5%;
+    right: 10%;
+    top: 20%;
+    bottom: 20%;
+
+}
+
+.cloudsIconText {
+    margin-left: 1.5em;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.cloudBudget {
+    position: absolute;
+    width: 578px;
+    height: 86px;
+    left: 431px;
+    top: 257px;
+    font-style: normal;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 86px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.linksList ul {
+    list-style-type: none;
+    font-size: 0.7em;
+    position: absolute;
+    top: 59px;
+    left: 201px;
+    display: inline-flex;
+    margin-left: 1em;
+
+}
+
+li.cloudsIconText {
+    position: absolute;
+    width: 136px;
+    height: 22px;
+    margin-left: 5%;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.linksList li {
+
+    margin-right: 2em;
+
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+li.gapBetween {
+    width: 30em;
+}
+
+.cloudBudgetManagement {
+    width: 540px;
+    height: 124px;
+    position: absolute;
+    top: 382px;
+    left: 450px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.signUpButton {
+    position: absolute;
+    left: 640px;
+    top: 545px;
+    width: 160px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.signUpText {
+
+    width: 55px;
+    height: 17px;
+    left: 692px;
+    top: 562px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10%;
+    margin-left: 30%;
+    text-transform: uppercase;
+    color: black;
+}
+
+.featuresBackground {
+    position: absolute;
+    width: 1440px;
+    height: 660px;
+    left: 0px;
+    top: 782px;
+    background: #FAFAFA;
+    z-index: -1;
+
+}
+
+.featuresImagesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+}
+
+.fearuresImageContainer {
+    z-index: -1;
+}
+
+.boxOnImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2em;
+    width: 293px;
+    height: 198px;
+    margin-left: 8%;
+    margin-top: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.featuresImage0 {
+    width: 350px;
+    height: 250px;
+    background: url("../images/Bg0.png"), #FFFFFF;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.featuresImage1 {
+    width: 350px;
+    height: 250px;
+    background: url("../images/Bg 1.png"), #FFFFFF;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.featuresImage2 {
+    width: 350px;
+    height: 250px;
+    background: url("../images/Bg2.png"), #FFFFFF;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.features {
+    margin-left: 165px;
+    margin-top: 63px;
+    width: 1110px;
+    height: 55px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+}
+
+.featuresTitle {
+    width: 229px;
+    height: 40px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+
+.featuresDescription {
+    width: 229px;
+    height: 57px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #101010;
+}
+
+.featuresReadMore {
+    width: 253px;
+    height: 18px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+    text-align: center;
+
+    color: #ED4C5C;
+}
+
+.technologyBackground {
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 1442px;
+    background: #FFFFFF;
+}
+
+.technology {
+    margin-left: 165px;
+    margin-top: 63px;
+    width: 1110px;
+    height: 55px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.technologyIconsWrapper {
+    width: 1110px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+
+}
+
+.technologyItem {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 226px;
+    align-items: center;
+}
+
+.technologyIcon1 {
+    width: 117px;
+    height: 120px;
+    background: #FFFFFF;
+    background: url("../images/01.png"), #FFFFFF;
+    background-repeat: no-repeat;
+}
+
+.technologyVector img {
+    margin-top: 30%;
+}
+
+.technologyIcon2 {
+    width: 117px;
+    height: 120px;
+    background: #FFFFFF;
+    background: url("../images/02.png"), #FFFFFF;
+    background-repeat: no-repeat;
+}
+
+.technologyIcon3 {
+    width: 117px;
+    height: 120px;
+    background: #FFFFFF;
+    background: url("../images/03.png"), #FFFFFF;
+    background-repeat: no-repeat;
+}
+
+.technologyIcon4 {
+    width: 117px;
+    height: 120px;
+    background: #FFFFFF;
+    background: url("../images/04.png"), #FFFFFF;
+    background-repeat: no-repeat;
+}
+
+
+
+.stayFocusedBackground {
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 1942px;
+    background: #ED4C5C;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    z-index: -60;
+}
+
+.stayFocusedTextWrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+
+}
+
+.stayFocusedText1 {
+    width: 445px;
+    height: 107px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.stayFocusedText2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.stayFocusedIcons {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.stayFocusedIcons button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.stayFocusedVideo {
+    width: 533px;
+    height: 311px;
+    flex: 1;
+}
+
+.stayFocusedVideo_1Image {
+    z-index: -30;
+    position: absolute;
+    max-height: 100%;
+}
+
+.stayFocusedVideo_2Image {
+    z-index: -40;
+    position: absolute;
+    margin-left: 10%;
+    max-height: 100%;
+}
+
+.stayFocusedVideo_3Image {
+    z-index: -10;
+    position: absolute;
+    margin-left: 3%;
+}
+
+.contactBackground {
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 2442px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: rows;
+
+    flex: 1;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+
+}
+
+.contactText {
+    width: 445px;
+    height: 107px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.contactText2 {
+    width: 434px;
+    height: 64px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+}
+
+.contactForm {
+
+    display: flex;
+
+
+}
+
+.formWrapper {
+    display: flex;
+    align-items: space-around;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.contactForm li {
+    list-style-type: none;
+}
+
+.contactItemSmall input {
+    float: left;
+    list-style-type: none;
+    width: 240px;
+    height: 60px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.contactItemButton {
+    width: 240px;
+    height: 60px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+
+}
+
+.contactItemButton input {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 5%;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contactItemSmall2 input {
+
+    list-style-type: none;
+    width: 240px;
+    height: 60px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+}
+
+.contactItemLarge input,
+select {
+    width: 490px;
+    height: 60px;
+    list-style-type: none;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.cloudStorage {
+    width: 113px;
+    height: 22px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+
+.accessText {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+}
